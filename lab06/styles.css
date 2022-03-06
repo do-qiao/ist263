@@ -1,0 +1,10 @@
+body{
+    color: black;
+    font-size:3em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1,h2{color: aquamarine;}
+.evenrow{background-color:antiquewhite}
+.special{color: purple;}
+h1{font-size: 3em;}
+h2{font-size: 2em;}
