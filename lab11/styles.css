@@ -1,0 +1,42 @@
+ body{background-color: #E5E3C9;}
+ p{color: #56BBF1;}
+ a:hover{color: #f863b5;} 
+ h1,h2{color: #0b0d0e;}
+ nav{background-color: #56BBF1;}
+ nav a{color: #3b1044;}
+ nav a:hover{background-color: #862b46;}
+ nav{padding: 10px;
+    margin-bottom: 30px;}
+
+
+.motto{float: right;}
+.p1{display: flex;margin: 30px; background-color: #f0ffff;border-radius: 1em;}
+.a1,.a2{flex:1; padding: 20px;}
+.p2{display: flex; margin: 30px; background-color: #cce5ff; border-radius: 1em;}
+.b1,.b2{flex:4; padding: 20px;}
+
+
+.otherskills{flex: 1; background-color: #cce5ff; border-radius: 1em;padding: 20px;}
+.top{text-align:center;}
+.a{ width: 100px;}
+.coreskills{display: flex;justify-content:space-around;flex: 15em;}
+.flexbox2{display: flex;}
+.otherskills1{flex-basis: 20em;}
+.centence{inline-size: 80%;}
+
+
+.img1{max-width: 100%;}
+.p2{flex-wrap: wrap;}
+@media only screen and (max-width:600px){
+    nav a{max-width: 100%;
+    display: block;
+    padding: 10px;}
+    .s{display: none;}
+}
+
+#skip{position: absolute;
+    left: -999px;
+    background-color: orange;
+    padding: 5px;}
+    #skip:focus{
+    left: 10px;
