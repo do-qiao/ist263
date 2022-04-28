@@ -1,34 +1,37 @@
 nav a {
     color: white;
     padding: 18px;
-    text-decoration: none;
-  }
- nav a:hover{background-color: #60ccbc;}
- nav{padding: 20px;
-    margin-bottom: 40px;}
-nav{display: block;}
-.main{display: flex;}
-.link{float: 50px;
-    color: black;
-background-color: #8aace1;
-padding: 10px;
-margin: 50px;}
-.header {
-    padding: 20px;
-    text-align: center;
-    background: #141414;
-    font-size: 20px;
-    text-decoration: none;
-  }
+    text-decoration: none;}
 
-  .Tesla{justify-content:right;flex:10px}
-  .text{justify-content:left;flex:auto}
+
+nav a:hover{background-color: #7395ae;}
+
+nav{
+    padding: 15px;
+    margin-bottom: 100px;
+    text-align: center;
+    background: #557a95;
+    font-size: 18px;}
+
+
+body{background-color:white;}
+
+.main{display: flex; justify-content: space-around;}
+
+
+
+.link{
+    color: white;
+background-color: orange;
+padding: 10px;
+}
+
+
+
 
   @media only screen and (max-width:600px){
     nav a{max-width: 100%;
     display: block;
-    padding: 10px;}}
-    div{display: flex;
-        max-width: 100%;
-        display: block;
-        padding: 10px;}
+    padding: 10px;}
+    .main{display: block;}}
+
