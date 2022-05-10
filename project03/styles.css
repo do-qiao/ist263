@@ -1,0 +1,156 @@
+.a {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2f3e46;
+    text-align:center;
+  } 
+.a li {
+      display: inline-block;
+      }
+.a li a {
+      display:flex;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 20px;
+      } 
+.a li a:hover {
+      background-color: #354f52;
+      }
+
+
+
+body, html {
+      height: 100%;
+      margin: 0;
+      }
+.home-image {
+      background-image: url(../project/media/home.jpg);
+      height: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      }
+.top{
+      font-size:65px;
+       color: #cad2c5;
+      margin: 0;
+      padding: 0;
+      text-align: center; 
+      position:relative; 
+      top: 20%;
+      }
+.link{
+      font-size:50px;
+      color: #cad2c5;
+      position:relative; 
+      top:70%;
+      left: 80%;
+      text-decoration: none;
+      margin:20px;
+      }
+
+
+
+.div1 img{
+        width: 500px;
+        position: relative;
+        top: 200px;
+        left: 50px;
+    }
+.div2{
+    background-color: #84a98c;
+    border-radius: 1em;
+    padding: 50px;
+    font-size: 17px;
+}
+.main{justify-content: space-around;}
+.div3{text-align: center;}
+#teslathumb, #chevoletthumb, #kiathumb, #minithumb, #nissanthumb {width: 150px;}
+#chevolet,#kia,#mini,#nissan,#chevoletinfo,#kiainfo,#miniinfo,#nissaninfo{display: none;}
+
+
+#skip{position: absolute;
+        left: -999px;
+        background-color: #545454;
+        padding: 5px;}
+        #skip:focus{
+        left: 10px;
+    }
+#skip:focus{
+        left: 10px;
+    }     
+
+.main{display: flex;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;}
+
+
+body{
+    background-color: #354f52;
+}
+        
+    
+.footer {
+     background-color: #2f3e46;
+     color: white;
+     margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+  }
+.footer p{color:#ffffff; font-size: 20px;}
+.footer img{
+      width:45Px;
+      height:auto;
+      padding: 10px;
+  }
+.icon {display: flex;
+}
+
+
+.p1{overflow: hidden;padding: 0;margin: 0; background-color: #52796f;}
+.p1 img{
+    width:300Px;
+    height:auto;
+  }
+.p2{padding: 20px;font-size: 20px; display: flex;background-color: #84a98c;}
+.p3{padding: 50px;margin: 5px;flex: 1;}
+.p4{padding: 50px;margin: 5px; background-color: #cad2c5;border-radius: 1em;}
+
+h2{overflow: hidden;
+margin: 0;
+padding: 0%;}
+
+
+  @media only screen and (max-width:600px){
+      .footer,.a li a,.a li{
+          display: block;
+          text-align: center;
+      }
+      .link{
+        top:40%;
+        left: 60%;
+    }
+    .home-image{
+        max-width: 100%;
+    }
+    .p1{
+        text-align: center;
+    }
+    .main{display: block;}
+    .div3 img{width: 30px;
+}
+.div1 img{width: 350px;
+    position: relative;
+    top: 0;
+    left: 10px;
+}
+.p2{display: block;}
+.icon{justify-content: space-around}
+}
