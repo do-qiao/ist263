@@ -73,16 +73,7 @@ body, html {
 #chevolet,#kia,#mini,#nissan,#chevoletinfo,#kiainfo,#miniinfo,#nissaninfo{display: none;}
 
 
-#skip{position: absolute;
-        left: -999px;
-        background-color: #545454;
-        padding: 5px;}
-        #skip:focus{
-        left: 10px;
-    }
-#skip:focus{
-        left: 10px;
-    }     
+
 
 .main{display: flex;
     margin: 0;
@@ -114,7 +105,7 @@ body{
 }
 
 
-.p1{overflow: hidden;padding: 0;margin: 0; background-color: #52796f;}
+.p1{overflow: hidden;padding: 0;margin: 0; background-color: #C2D6D1;}
 .p1 img{
     width:300Px;
     height:auto;
