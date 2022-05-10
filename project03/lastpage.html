@@ -9,7 +9,16 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <title>Official Links and Feedback</title>
     <link rel="stylesheet" href="styles.css">
-
+    <style>
+        #skip{position: absolute;
+        left: -999px;
+        background-color: #545454;
+        padding: 5px;}
+        #skip:focus{
+        left: 10px;
+    }
+    
+    </style>
 </head>
 <body id="content">
     <ul class="a">
@@ -39,7 +48,7 @@
                             <input type="radio" name="male" id="male1"><br>
                             <label for = "female">Female</label>
                             <input type="radio" name="female" id="female"><br><br>
-                            <label for="contact questions">which car do you want to leave comment with?</label> 
+                            <label for="contactquestions">which car do you want to leave comment with?</label> 
                             <select id="question" name="question">
                                 <option value="tesla"> Tesla</option>
                                 <option value="chevolet"> Chevolet</option>
