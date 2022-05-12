@@ -59,7 +59,7 @@ body, html {
 }
 
 .div1 img{
-        width: 800px;
+        width: 650px;
         position: relative;
         top: 200px;
         left: 50px;
@@ -108,7 +108,7 @@ body{
 }
 
 
-.p1{overflow: hidden;padding: 0;margin: 0; background-color: #C2D6D1;}
+.p1{overflow: hidden;padding: 0;margin: 0; background-color: #C2D6D1; justify-content: space-around;}
 .p1 img{
     width:300Px;
     height:auto;
